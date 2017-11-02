@@ -1,0 +1,24 @@
+// Project settings, to be put in /.vscode/.settings.json
+{
+    // Configure as per lint config
+    "editor.rulers": [140],
+
+    "files.associations": {
+        "*.js": "javascriptreact"
+    },
+
+    "files.insertFinalNewline": true,
+
+    "files.trimTrailingWhitespace": true,
+
+    "json.schemas": [
+        // Note: is already aware of package.json and tsconfig.json, so no need to add those
+        {
+            "fileMatch": ["tslint.json"],
+            "url": "http://json.schemastore.org/tslint"
+        }
+    ],
+
+    // Use project version instead of one shipped with VS Code
+    "typescript.tsdk": "./node_modules/typescript/lib"
+}

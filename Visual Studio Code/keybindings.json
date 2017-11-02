@@ -1,0 +1,4 @@
+[
+    // Create & name new file in folder, instead of opening a new untitled editor
+    { "key": "ctrl+n",                "command": "explorer.newFile" }
+]
