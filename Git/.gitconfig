@@ -1,0 +1,30 @@
+[alias]
+    br = branch
+    ci = commit
+    co = checkout
+    st = status
+[core]
+    # Ignore files' executable bit changed on broken file systems, resulting in them being marked as changed
+    fileMode = false
+    # File system cache in Git for Windows (enabled by default from 2.8.2)
+    fscache = true
+    # Long paths support in Git for Windows, useful if deep node_modules have been checked in
+    longpaths = true
+    # Enable parallelism to improve performance (enabled by default from 2.1.0)
+    preloadindex = true
+[gui]
+    # Don't use the default system encoding
+    encoding = utf-8
+    # Turn off loose objects popup that appears on launch
+    gcwarning = false
+[merge]
+    tool = kdiff3
+[mergetool "kdiff3"]
+    path = C:/Program Files/KDiff3/kdiff3.exe
+[push]
+    # Squelch the warning about new default behaviour in Git 2.0
+    default = simple
+[user]
+    name = YOUR NAME
+    # Should match configured email on repo hosting (e.g. GitHub), so it can associate your commits with your user
+    email = YOUR EMAIL
