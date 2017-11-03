@@ -11,6 +11,9 @@
 
     "files.trimTrailingWhitespace": true,
 
+    "html.suggest.angular1": false,
+    "html.suggest.ionic": false,
+
     "json.schemas": [
         // Note: is already aware of package.json and tsconfig.json, so no need to add those
         {
