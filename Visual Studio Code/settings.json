@@ -1,5 +1,8 @@
 // Personal preferences
 {
+    // Don't follow the active editor around the file tree. Defined a keyboard shortcut instead.
+    "explorer.autoReveal": false,
+
     // Prompt for save instead of remembering unsaved changes
     "files.hotExit": "off",
 
