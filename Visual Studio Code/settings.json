@@ -1,10 +1,18 @@
 // Personal preferences
 {
+    // 10pt equivalent (Visual Studio default)
+    "editor.fontSize": 13,
+
+    "editor.wordWrap": "on",
+
     // Don't follow the active editor around the file tree. Defined a keyboard shortcut instead.
     "explorer.autoReveal": false,
 
     // Prompt for save instead of remembering unsaved changes
     "files.hotExit": "off",
+
+    // 10pt equivalent (Visual Studio default)
+    "terminal.integrated.fontSize": 13,
 
     "terminal.integrated.shell.windows": "C:\\Program Files\\Git\\bin\\bash.exe",
 
