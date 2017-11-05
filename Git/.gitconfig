@@ -3,6 +3,8 @@
     ci = commit
     co = checkout
     st = status
+[alias]
+    please = push --force-with-lease
 [core]
     # Ignore files' executable bit changed on broken file systems, resulting in them being marked as changed
     fileMode = false

@@ -11,6 +11,9 @@
     // Prompt for save instead of remembering unsaved changes
     "files.hotExit": "off",
 
+    // Avoid defeating the protection given by "git push --force-with-lease"
+    "git.autofetch": false,
+
     // 10pt equivalent (Visual Studio default)
     "terminal.integrated.fontSize": 13,
 
