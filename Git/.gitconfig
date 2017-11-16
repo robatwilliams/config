@@ -5,6 +5,9 @@
     st = status
 [alias]
     please = push --force-with-lease
+[color "branch"]
+    # Use a lighter blue for "git branch -vv"; the default is unreadable on black background
+    upstream = bold blue
 [core]
     # Ignore files' executable bit changed on broken file systems, resulting in them being marked as changed
     fileMode = false
