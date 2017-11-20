@@ -4,6 +4,8 @@
     co = checkout
     st = status
 [alias]
+    ahead = log --oneline @{push}..
+    behind = log --oneline ..@{upstream}
     please = push --force-with-lease
 [color "branch"]
     # Use a lighter blue for "git branch -vv"; the default is unreadable on black background
