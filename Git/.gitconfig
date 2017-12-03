@@ -22,6 +22,8 @@
     fscache = true
     # Long paths support in Git for Windows, useful if deep node_modules have been checked in
     longpaths = true
+    # Make diffs more readable (https://github.com/so-fancy/diff-so-fancy)
+    pager = diff-so-fancy | less --tabs=4 -RFX
     # Enable parallelism to improve performance (enabled by default from 2.1.0)
     preloadindex = true
 [diff]
