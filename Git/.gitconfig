@@ -2,11 +2,14 @@
     br = branch
     ci = commit
     co = checkout
+    rb = rebase
     st = status
 [alias]
     ahead = log --oneline @{push}..
     behind = log --oneline ..@{upstream}
+    l = log --oneline
     please = push --force-with-lease
+    s = status --short --branch
 [color "branch"]
     # Use a lighter blue for "git branch -vv"; the default is unreadable on black background
     upstream = bold blue
