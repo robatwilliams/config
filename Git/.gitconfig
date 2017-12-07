@@ -1,4 +1,6 @@
 [alias]
+    aliases = "!f() { git config --list | grep alias | cut -c 7- | awk -F'=' '{printf(\"%-10s %s\\n\", $1, $2)}'; }; f"
+[alias]
     br = branch
     ci = commit
     co = checkout
