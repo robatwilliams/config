@@ -13,6 +13,7 @@
     please = push --force-with-lease
     s = status --short --branch
 [alias]
+    delete-gone = "!f() { git fetch --prune && git branch -vv | grep ': gone]' | awk '{print $1}' | xargs git branch -d; }; f"
     pr = "!f() { git pr-gh $@; }; f"
     pr-clean = "!f() { git branch --list 'pr/*' --format='%(refname:short)' | xargs git branch -d; }; f"
     pr-bb = "!f() { git fetch -fu upstream pull-requests/$1/from:pr/$1 && git checkout pr/$1; }; f"
