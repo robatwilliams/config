@@ -46,6 +46,9 @@
     tool = kdiff3
 [mergetool "kdiff3"]
     path = C:/Program Files/KDiff3/kdiff3.exe
+[pull]
+    # Refuse to merge when pulling if local & remote have diverged (useful for rebase-based workflow)
+    ff = only
 [push]
     # Squelch the warning about new default behaviour in Git 2.0
     default = simple
