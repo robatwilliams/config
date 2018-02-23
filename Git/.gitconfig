@@ -52,6 +52,12 @@
 [push]
     # Squelch the warning about new default behaviour in Git 2.0
     default = simple
+[rebase]
+    # Stop rebase if any lines deleted. Drop commits explicitly using "drop" or "d".
+    missingCommitsCheck = error
+[sequence]
+    # Use VSCode as editor for rebase todo-list
+    editor = code --wait
 [user]
     name = YOUR NAME
     # Should match configured email on repo hosting (e.g. GitHub), so it can associate your commits with your user
