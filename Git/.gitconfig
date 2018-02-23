@@ -12,6 +12,8 @@
     l = log --oneline
     please = push --force-with-lease
     s = status --short --branch
+    stashiu = stash --include-untracked
+    stashki = stash --keep-index
 [alias]
     delete-gone = "!f() { git fetch --prune && git branch -vv | grep ': gone]' | awk '{print $1}' | xargs git branch -d; }; f"
     pr = "!f() { git pr-gh $@; }; f"
