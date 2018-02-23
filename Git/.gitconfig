@@ -11,6 +11,8 @@
     behind = log --oneline ..@{upstream}
     l = log --oneline
     please = push --force-with-lease
+    pushu = push --set-upstream origin HEAD
+    rbc = rebase --continue
     s = status --short --branch
     stashiu = stash --include-untracked
     stashki = stash --keep-index
