@@ -9,6 +9,7 @@
 [alias]
     ahead = log --oneline @{push}..
     behind = log --oneline ..@{upstream}
+    diffall = difftool --dir-diff
     l = log --oneline
     please = push --force-with-lease
     pushu = push --set-upstream origin HEAD
