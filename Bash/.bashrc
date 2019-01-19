@@ -1,4 +1,4 @@
 alias gitg='git gui &'
-alias gitk='\gitk &'
+gitk() { command gitk "$@" & }
 alias nr='npm run'
 alias ns='npm start'
