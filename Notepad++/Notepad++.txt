@@ -1,0 +1,11 @@
+New Document
+  Format (Line ending): Unix (LF)
+Language
+  [Default]
+  Tab size: 2
+  Replace by space: tick
+Misc
+  File Status Auto-Detection: untick (it focuses the tab, annoying with log files)
+
+Shortcut Mapper
+  Reload from Disk: F5
