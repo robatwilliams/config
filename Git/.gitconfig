@@ -20,10 +20,6 @@
     stashki = stash --keep-index
 [alias]
     delete-gone = "!f() { git fetch --prune && git branch -vv | grep ': gone]' | awk '{print $1}' | xargs git branch -d; }; f"
-    pr = "!f() { git pr-gh $@; }; f"
-    pr-clean = "!f() { git branch --list 'pr/*' --format='%(refname:short)' | xargs git branch -d; }; f"
-    pr-bb = "!f() { git fetch -fu upstream pull-requests/$1/from:pr/$1 && git checkout pr/$1; }; f"
-    pr-gh = "!f() { git fetch -fu upstream pull/$1/head:pr/$1 && git checkout pr/$1; }; f"
 [color "branch"]
     # Use a lighter blue for "git branch -vv"; the default is unreadable on black background
     upstream = bold blue
