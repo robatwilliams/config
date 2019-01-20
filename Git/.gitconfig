@@ -37,6 +37,10 @@
     # Enable parallelism to improve performance (enabled by default from 2.1.0)
     preloadindex = true
 [diff]
+    # Color moved blocks (20+ alphanumeric characters) as moves instead of additions & deletions. (requires 2.17.0)
+    colorMoved = default
+    # Ignore indentation changes when detecting moved blocks; these are common when refactoring (requires 2.18.0)
+    colorMovedWS = allow-indentation-change
     guitool = kdiff3
     # Consider more files than the defaults (diff: 400, merge: 1000), for large refactorings
     renameLimit = 5000
