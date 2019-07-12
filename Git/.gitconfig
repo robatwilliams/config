@@ -20,6 +20,8 @@
     stashki = stash --keep-index
 [alias]
     delete-gone = "!f() { git fetch --prune && git branch -vv | grep ': gone]' | awk '{print $1}' | xargs git branch -d; }; f"
+    # Move (rename) local branch and its remote counterpart, without needing to check it out
+    move-branch = "!f() { git branch --move $1 $2; git push origin --delete $1; git push --set-upstream origin $2; }; f"
 [color "branch"]
     # Use a lighter blue for "git branch -vv"; the default is unreadable on black background
     upstream = bold blue
