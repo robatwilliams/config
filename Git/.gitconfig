@@ -1,12 +1,15 @@
 [alias]
+    # List all the aliases
     aliases = "!f() { git config --list | grep alias | cut -c 7- | awk -F'=' '{printf(\"%-10s %s\\n\", $1, $2)}'; }; f"
 [alias]
+    # section: short names
     br = branch
     ci = commit
     co = checkout
     rb = rebase
     st = status
 [alias]
+    # section: shorthands for useful arguments
     ahead = log --oneline @{push}..
     behind = log --oneline ..@{upstream}
     diffall = difftool --dir-diff
@@ -19,6 +22,8 @@
     stashiu = stash --include-untracked
     stashki = stash --keep-index
 [alias]
+    # section: utility scripts
+    # Delete local branches whose remote counterparts have been deleted (e.g. merged pull requests)
     delete-gone = "!f() { git fetch --prune && git branch -vv | grep ': gone]' | awk '{print $1}' | xargs git branch -d; }; f"
     # Move (rename) local branch and its remote counterpart, without needing to check it out
     move-branch = "!f() { git branch --move $1 $2; git push origin --delete $1; git push --set-upstream origin $2; }; f"
