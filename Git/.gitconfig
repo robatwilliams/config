@@ -37,6 +37,8 @@
 [core]
     # Line endings - checkout as-is, commit as-is. This is the default, but the installer does ask.
     autocrlf = false
+    # Alternative to denote comment lines in commit messages, when standards require messages to start with a hash-prefixed issue number
+    # commentchar = ";"
     # Ignore files' executable bit changed on broken file systems, resulting in them being marked as changed
     fileMode = false
     # File system cache in Git for Windows (enabled by default from 2.8.2)
