@@ -6,12 +6,14 @@
     br = branch
     ci = commit
     co = checkout
+    cp = cherry-pick
     rb = rebase
     st = status
 [alias]
     # section: shorthands for useful arguments
     ahead = log --oneline @{push}..
     behind = log --oneline ..@{upstream}
+    cpc = cherry-pick --continue
     diffall = difftool --dir-diff
     l = log --oneline
     please = push --force-with-lease
