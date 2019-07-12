@@ -84,6 +84,9 @@
 [sequence]
     # Use VSCode as editor for rebase todo-list
     editor = code --wait
+[submodule]
+    # Make commands recurse into submodules, to avoid needing to do "git submodule update" after pull
+    recurse = true
 [user]
     name = YOUR NAME
     # Should match configured email on repo hosting (e.g. GitHub), so it can associate your commits with your user
