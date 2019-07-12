@@ -46,6 +46,9 @@
     renameLimit = 5000
 [difftool "kdiff3"]
     path = C:/Program Files/KDiff3/kdiff3.exe
+[fetch]
+    # Remove references to remote branches that no longer exist
+    prune = true
 [gui]
     # Don't use the default system encoding
     encoding = utf-8
