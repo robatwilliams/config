@@ -12,6 +12,7 @@
 [alias]
     # section: shorthands for useful arguments
     ahead = log --oneline @{push}..
+    ahead-diff = diff @{push}..
     behind = log --oneline ..@{upstream}
     cpc = cherry-pick --continue
     diffall = difftool --dir-diff
