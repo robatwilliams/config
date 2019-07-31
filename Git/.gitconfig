@@ -21,6 +21,8 @@
     l = log --oneline
     please = push --force-with-lease
     pushu = push --set-upstream origin HEAD
+    # Ahead & behind counts
+    relative = rev-list --left-right --count origin/master...
     reseto = reset --hard @{push}
     rbc = rebase --continue
     s = status --short --branch
