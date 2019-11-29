@@ -31,7 +31,7 @@
 [alias]
     # section: utility scripts
     # Determines if branch (first parameter) contains a ref (second parameter)
-    branch-contains = "!f() { git merge-base --is-ancestor $2 $1; [ $? -eq 0 ] && echo yes || echo no; }; f"
+    contains = "!f() { git merge-base --is-ancestor $2 $1; [ $? -eq 0 ] && echo yes || echo no; }; f"
     # Delete local branches whose remote counterparts have been deleted (e.g. merged pull requests)
     delete-gone = "!f() { git fetch --prune && git branch -vv | grep ': gone]' | awk '{print $1}' | xargs git branch -d; }; f"
     # Move (rename) local branch and its remote counterpart, without needing to check it out
