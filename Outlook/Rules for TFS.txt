@@ -1,0 +1,29 @@
+# New
+created a new pull request
+
+# Comments
+commented on
+has commented
+has edited a comment
+
+# Waiting
+waiting for the author to respond
+
+# Replies
+has replied to a comment
+
+# Changes
+pushed new changes
+changed the target branch
+
+# Approvals
+approved the changes
+has approved with suggestions
+reset their vote
+
+# Completed
+completed the pull request
+set auto-complete
+
+# Mentions
+mentioned you in
