@@ -83,6 +83,8 @@
     # Squelch the warning about new default behaviour in Git 2.0
     default = simple
 [rebase]
+    # Automatically move fixup/squash commits to the right position and mark for squashing (seems to have been enabled by default on Windows until 2.24.0)
+    autoSquash = true
     # Stop rebase if any lines deleted. Drop commits explicitly using "drop" or "d".
     missingCommitsCheck = error
 [sequence]
