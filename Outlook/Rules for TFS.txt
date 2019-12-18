@@ -15,6 +15,7 @@ has replied to a comment
 # Changes
 pushed new changes
 changed the target branch
+updated the title or description
 
 # Approvals
 approved the changes
@@ -27,3 +28,8 @@ set auto-complete
 
 # Mentions
 mentioned you in
+
+# Misc
+abandoned the pull request
+was added as a reviewer
+was removed as a reviewer
