@@ -55,9 +55,9 @@
     # Enable parallelism to improve performance (enabled by default from 2.1.0)
     preloadindex = true
 [diff]
-    # Color moved blocks (20+ alphanumeric characters) as moves instead of additions & deletions. (requires 2.17.0)
+    # Color moved blocks (20+ alphanumeric characters) as moves instead of additions & deletions
     colorMoved = default
-    # Ignore indentation changes when detecting moved blocks; these are common when refactoring (requires 2.18.0)
+    # Ignore indentation changes when detecting moved blocks; these are common when refactoring
     colorMovedWS = allow-indentation-change
     guitool = kdiff3
     # Consider more files than the defaults (diff: 400, merge: 1000), for large refactorings
@@ -73,7 +73,7 @@
     # Turn off loose objects popup that appears on launch
     gcwarning = false
 [merge]
-   # Include the original (base) in addition to both sides of the conflict, for context (requires 2.35.0)
+   # Include the original (base) in addition to both sides of the conflict, for context
     conflictStyle = zdiff3
     tool = kdiff3
 [mergetool "kdiff3"]
