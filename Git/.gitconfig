@@ -73,8 +73,8 @@
     # Turn off loose objects popup that appears on launch
     gcwarning = false
 [merge]
-   # Include the original (base) in addition to both sides of the conflict, for context
-    conflictStyle = diff3
+   # Include the original (base) in addition to both sides of the conflict, for context (requires 2.35.0)
+    conflictStyle = zdiff3
     tool = kdiff3
 [mergetool "kdiff3"]
     path = C:/Program Files/KDiff3/kdiff3.exe
