@@ -27,7 +27,7 @@
     rbc = rebase --continue
     s = status --short --branch
     stashiu = stash --include-untracked
-    stashki = stash --keep-index
+    stashs = stash --staged
 [alias]
     # section: utility scripts
     # Determines if branch (first parameter) contains a ref (second parameter)
