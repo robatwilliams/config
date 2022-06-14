@@ -72,6 +72,9 @@
     encoding = utf-8
     # Turn off loose objects popup that appears on launch
     gcwarning = false
+[http]
+    # Don't use this! For repos with a self-signed certificate, register the _issuing_ certificate with your OS instead.
+    # sslVerify = false
 [merge]
    # Include the original (base) in addition to both sides of the conflict, for context
     conflictStyle = zdiff3
