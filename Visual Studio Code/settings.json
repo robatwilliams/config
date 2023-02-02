@@ -4,6 +4,9 @@
     "editor.fontSize": 13,
 
     "editor.wordWrap": "on",
+    
+    // Copy with slashes suitable for bash shell
+    "explorer.copyRelativePathSeparator": "/",
 
     // Don't follow the active editor around the file tree. Defined a keyboard shortcut instead.
     "explorer.autoReveal": false,
